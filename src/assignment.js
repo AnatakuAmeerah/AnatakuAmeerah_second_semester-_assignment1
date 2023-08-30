@@ -17,7 +17,7 @@ const assignment = {};
 function sumOfNumbersTo(destination) {
     let sum = 0;
     for (let i = 0; i <= destination; i++){
-        sum += i;
+        sum= sum + i;
         }
     return sum
 }
